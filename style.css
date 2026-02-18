@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    gap:232.5px;
+    padding: 21.84px 0px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.list ul{
+    display: flex;
+    gap: 60px;
+}    
+
+.icons ul{
+    display: flex;
+    gap:24px; 
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.collection-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    text-align: center;
+    padding: 80px ;
+}
+
+img{
+    width:100%;
+}
+
+.collection{
+    width:calc( (100% - 90px) / 4);
+}
+
+h2{
+    margin-top: 23px;
+}
