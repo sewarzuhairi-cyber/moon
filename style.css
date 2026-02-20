@@ -3,11 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    width:calc(100% - 330px);
+    margin:auto;
+    background-color: aliceblue;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .header{
-    display: flex;
-    gap:232.5px;
-    padding: 21.84px 0px;
+    padding: 21.84px 0;
 }
 
 ul{
@@ -30,11 +39,12 @@ a{
 
 
 .collection-section{
-    display: flex;
+    /*display: flex;
     flex-wrap: wrap;
+    text-align: center;*/
     gap:30px;
-    text-align: center;
     padding: 80px ;
+    
 }
 
 img{
@@ -47,4 +57,9 @@ img{
 
 h2{
     margin-top: 23px;
+}
+
+a{
+    font-family: inter;
+    font-size: 14px;
 }
